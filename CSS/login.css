@@ -1,0 +1,39 @@
+:root{
+  --dark: #16191c;
+  --darck-x: #1e2126;
+  --light: #ffffff;  
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    color: var(--light);
+    
+}
+.img-fluid{
+    width: 90px;
+    height: 90px;
+}
+.bg-dar{ background-color: var(--dark) !important;}
+.bg-dark-x { background-color: var(--darck-x) !important;}
+
+.form-control, .btn{
+    min-height: 2.135rem;
+    line-height: initial;
+}
+.img-1{
+    background-image: url("../Imagenes/Slider1.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.img-2{
+    background-image: url("../Imagenes/Slider2.jpg");
+    background-size: cover;
+    background-position: center;
+}

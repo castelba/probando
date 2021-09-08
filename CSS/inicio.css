@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lato', sans-serif;
+}
+.banner-imagen{
+    background-image: url("../Imagenes/banner1.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 150px;
+
+}
+.list-group{
+    position: relative;
+    width: 30%;
+    top: 50;
+    left: 35%;
+    margin-top: 25px;
+    margin-bottom: 25px; 
+}
+.card img{
+    
+    width: 367px;
+    height: 370px;
+}
+.card{
+    font-family: 'Raleway', sans-serif;
+}
+.carousel-item {
+    height: 65vh;
+    min-height: 600px;
+    
+  }
+/* QUIENES SOMOS */
+
+
+
+
